@@ -13,6 +13,8 @@
 		C8D4408D22C64E0F0070DF0A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4408C22C64E0F0070DF0A /* Cell.swift */; };
 		C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4408E22C6500B0070DF0A /* UITableView+Cell.swift */; };
 		C8D4409C22C6552B0070DF0A /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4409B22C6552B0070DF0A /* CellTests.swift */; };
+		C8D440A022C65A9E0070DF0A /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4409F22C65A9E0070DF0A /* UIView+Geometry.swift */; };
+		C8D440A322C65AD30070DF0A /* UIView+GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		C8D4408C22C64E0F0070DF0A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		C8D4408E22C6500B0070DF0A /* UITableView+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
 		C8D4409B22C6552B0070DF0A /* CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		C8D4409F22C65A9E0070DF0A /* UIView+Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+GeometryTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,8 @@
 		C8D4408922C64DDC0070DF0A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C8D4408E22C6500B0070DF0A /* UITableView+Cell.swift */,
+				C8D4409E22C65A920070DF0A /* UIView */,
+				C8D4409D22C65A8C0070DF0A /* UITableView */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 		C8D4409122C651EB0070DF0A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C8D440A122C65AC60070DF0A /* UIView */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +147,30 @@
 				C8D4409B22C6552B0070DF0A /* CellTests.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		C8D4409D22C65A8C0070DF0A /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4408E22C6500B0070DF0A /* UITableView+Cell.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		C8D4409E22C65A920070DF0A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4409F22C65A9E0070DF0A /* UIView+Geometry.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C8D440A122C65AC60070DF0A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8D4408D22C64E0F0070DF0A /* Cell.swift in Sources */,
+				C8D440A022C65A9E0070DF0A /* UIView+Geometry.swift in Sources */,
 				C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D440A322C65AD30070DF0A /* UIView+GeometryTests.swift in Sources */,
 				C8D4407E22C64DD50070DF0A /* StartKitTests.swift in Sources */,
 				C8D4409C22C6552B0070DF0A /* CellTests.swift in Sources */,
 			);
