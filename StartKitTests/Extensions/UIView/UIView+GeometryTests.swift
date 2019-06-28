@@ -29,7 +29,7 @@ class UIView_GeometryTests: XCTestCase {
         let view = UIView(frame: CGRect(x: 10, y: 20, width: 30, height: 40))
         XCTAssertEqual(view.y, 20)
         view.y = 30
-        XCTAssertEqual(view.x, 30)
+        XCTAssertEqual(view.y, 30)
     }
 
     func testView_SetSize_EqualsSize130140() {
