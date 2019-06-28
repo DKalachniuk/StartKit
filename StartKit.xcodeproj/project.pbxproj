@@ -17,6 +17,8 @@
 		C8D440A322C65AD30070DF0A /* UIView+GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */; };
 		C8D440A622C65BAF0070DF0A /* UIScreen+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440A522C65BAF0070DF0A /* UIScreen+Geometry.swift */; };
 		C8D440A922C65BEA0070DF0A /* UIScreen+GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440A822C65BEA0070DF0A /* UIScreen+GeometryTests.swift */; };
+		C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AA22C65C510070DF0A /* UIView+Animations.swift */; };
+		C8D440AD22C65D030070DF0A /* UIView+AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+GeometryTests.swift"; sourceTree = "<group>"; };
 		C8D440A522C65BAF0070DF0A /* UIScreen+Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Geometry.swift"; sourceTree = "<group>"; };
 		C8D440A822C65BEA0070DF0A /* UIScreen+GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+GeometryTests.swift"; sourceTree = "<group>"; };
+		C8D440AA22C65C510070DF0A /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationsTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				C8D4409F22C65A9E0070DF0A /* UIView+Geometry.swift */,
+				C8D440AA22C65C510070DF0A /* UIView+Animations.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C8D440A222C65AD30070DF0A /* UIView+GeometryTests.swift */,
+				C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 			files = (
 				C8D4408D22C64E0F0070DF0A /* Cell.swift in Sources */,
 				C8D440A022C65A9E0070DF0A /* UIView+Geometry.swift in Sources */,
+				C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */,
 				C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */,
 				C8D440A622C65BAF0070DF0A /* UIScreen+Geometry.swift in Sources */,
 			);
@@ -315,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D440AD22C65D030070DF0A /* UIView+AnimationsTests.swift in Sources */,
 				C8D440A322C65AD30070DF0A /* UIView+GeometryTests.swift in Sources */,
 				C8D4407E22C64DD50070DF0A /* StartKitTests.swift in Sources */,
 				C8D4409C22C6552B0070DF0A /* CellTests.swift in Sources */,
