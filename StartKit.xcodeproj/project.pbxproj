@@ -20,6 +20,8 @@
 		C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AA22C65C510070DF0A /* UIView+Animations.swift */; };
 		C8D440AD22C65D030070DF0A /* UIView+AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */; };
 		C8D440AF22C662120070DF0A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AE22C662120070DF0A /* GlobalFunctions.swift */; };
+		C8E9DBED22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E9DBEC22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift */; };
+		C8E9DBF022D689DA00A6AD08 /* RandomAccessCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E9DBEF22D689DA00A6AD08 /* RandomAccessCollectionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C8D440AA22C65C510070DF0A /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationsTests.swift"; sourceTree = "<group>"; };
 		C8D440AE22C662120070DF0A /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		C8E9DBEC22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+AnyElement.swift"; sourceTree = "<group>"; };
+		C8E9DBEF22D689DA00A6AD08 /* RandomAccessCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessCollectionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +117,8 @@
 		C8D4408922C64DDC0070DF0A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C8D440A422C65B990070DF0A /* UIScreen */,
-				C8D4409E22C65A920070DF0A /* UIView */,
-				C8D4409D22C65A8C0070DF0A /* UITableView */,
+				C8E9DBEB22D687E800A6AD08 /* Base Types */,
+				C8E9DBEA22D687E100A6AD08 /* UI */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 		C8D4409122C651EB0070DF0A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C8E9DBEE22D689B700A6AD08 /* RandomAccessCollection */,
 				C8D440A722C65BD90070DF0A /* UIScreen */,
 				C8D440A122C65AC60070DF0A /* UIView */,
 			);
@@ -202,6 +206,32 @@
 				C8D440A822C65BEA0070DF0A /* UIScreen+GeometryTests.swift */,
 			);
 			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		C8E9DBEA22D687E100A6AD08 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C8D440A422C65B990070DF0A /* UIScreen */,
+				C8D4409E22C65A920070DF0A /* UIView */,
+				C8D4409D22C65A8C0070DF0A /* UITableView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C8E9DBEB22D687E800A6AD08 /* Base Types */ = {
+			isa = PBXGroup;
+			children = (
+				C8E9DBEC22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift */,
+			);
+			path = "Base Types";
+			sourceTree = "<group>";
+		};
+		C8E9DBEE22D689B700A6AD08 /* RandomAccessCollection */ = {
+			isa = PBXGroup;
+			children = (
+				C8E9DBEF22D689DA00A6AD08 /* RandomAccessCollectionTests.swift */,
+			);
+			path = RandomAccessCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +349,7 @@
 				C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */,
 				C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */,
 				C8D440A622C65BAF0070DF0A /* UIScreen+Geometry.swift in Sources */,
+				C8E9DBED22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +359,7 @@
 			files = (
 				C8D440AD22C65D030070DF0A /* UIView+AnimationsTests.swift in Sources */,
 				C8D440A322C65AD30070DF0A /* UIView+GeometryTests.swift in Sources */,
+				C8E9DBF022D689DA00A6AD08 /* RandomAccessCollectionTests.swift in Sources */,
 				C8D4407E22C64DD50070DF0A /* StartKitTests.swift in Sources */,
 				C8D4409C22C6552B0070DF0A /* CellTests.swift in Sources */,
 				C8D440A922C65BEA0070DF0A /* UIScreen+GeometryTests.swift in Sources */,
