@@ -19,6 +19,7 @@
 		C8D440A922C65BEA0070DF0A /* UIScreen+GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440A822C65BEA0070DF0A /* UIScreen+GeometryTests.swift */; };
 		C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AA22C65C510070DF0A /* UIView+Animations.swift */; };
 		C8D440AD22C65D030070DF0A /* UIView+AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */; };
+		C8D440AF22C662120070DF0A /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D440AE22C662120070DF0A /* GlobalFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C8D440A822C65BEA0070DF0A /* UIScreen+GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+GeometryTests.swift"; sourceTree = "<group>"; };
 		C8D440AA22C65C510070DF0A /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		C8D440AC22C65D030070DF0A /* UIView+AnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationsTests.swift"; sourceTree = "<group>"; };
+		C8D440AE22C662120070DF0A /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		C8D4408A22C64DE50070DF0A /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				C8D440AE22C662120070DF0A /* GlobalFunctions.swift */,
 				C8D4408B22C64DEB0070DF0A /* Cells */,
 			);
 			path = Logic;
@@ -312,6 +315,7 @@
 			files = (
 				C8D4408D22C64E0F0070DF0A /* Cell.swift in Sources */,
 				C8D440A022C65A9E0070DF0A /* UIView+Geometry.swift in Sources */,
+				C8D440AF22C662120070DF0A /* GlobalFunctions.swift in Sources */,
 				C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */,
 				C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */,
 				C8D440A622C65BAF0070DF0A /* UIScreen+Geometry.swift in Sources */,
