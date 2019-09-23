@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8A699BE2339724A00B75487 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A699BD2339724A00B75487 /* Date.swift */; };
 		C8D4407922C64DD50070DF0A /* StartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D4406F22C64DD50070DF0A /* StartKit.framework */; };
 		C8D4407E22C64DD50070DF0A /* StartKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4407D22C64DD50070DF0A /* StartKitTests.swift */; };
 		C8D4408022C64DD50070DF0A /* StartKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4407222C64DD50070DF0A /* StartKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8A699BD2339724A00B75487 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		C8D4406F22C64DD50070DF0A /* StartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D4407222C64DD50070DF0A /* StartKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartKit.h; sourceTree = "<group>"; };
 		C8D4407322C64DD50070DF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				C8E9DBEC22D6880900A6AD08 /* RandomAccessCollection+AnyElement.swift */,
+				C8A699BD2339724A00B75487 /* Date.swift */,
 			);
 			path = "Base Types";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				C8D4408D22C64E0F0070DF0A /* Cell.swift in Sources */,
 				C8D440A022C65A9E0070DF0A /* UIView+Geometry.swift in Sources */,
 				C8D440AF22C662120070DF0A /* GlobalFunctions.swift in Sources */,
+				C8A699BE2339724A00B75487 /* Date.swift in Sources */,
 				C8D440AB22C65C510070DF0A /* UIView+Animations.swift in Sources */,
 				C8D4408F22C6500B0070DF0A /* UITableView+Cell.swift in Sources */,
 				C8D440A622C65BAF0070DF0A /* UIScreen+Geometry.swift in Sources */,
